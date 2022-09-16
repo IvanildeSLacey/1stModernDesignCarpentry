@@ -185,6 +185,13 @@ img{
     right: 0;
   }
 
+  /* about us page */
+#aboutus {
+    text-align: center;
+    margin: 25px 150px 10px;
+    font-size: 18px;
+}
+
 /* footer */
 footer {
     height: 60px;
