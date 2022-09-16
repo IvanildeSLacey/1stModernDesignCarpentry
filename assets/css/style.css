@@ -66,22 +66,16 @@ h1, h2 {
 /* Slides hero image */
 
 .container {
-    position: absolute;
-    top: 60%;
-    left: 50%;
     height: 600px;
     width: 100%;
-    transform: translate(-50%, -50%);
     border: 1px solid;
     overflow: hidden;
 }
 
 .navigator {
-    display: flex;
-    position: absolute;
-    left: 50%;
+    display:flex;
+    position: relative;
     bottom: 20px;
-    transform: translate(-50%);
 }
 
 .navigator .bar {
@@ -140,7 +134,7 @@ img{
 }
 
 #mission {
-    margin: 700px 25px 50px;
+    margin: 25px 25px 50px;
     text-align: center;
     font-size: 18px;
 }
@@ -205,6 +199,10 @@ img{
     color:#fff;
 }
 
+.request-contact {
+    display: none;
+}
+
 .col {
     height: 100%;
     flex: 1;
@@ -254,7 +252,7 @@ img{
 
 /* Form */
 form {
-	width: 700px;
+	width: 90%;
 	padding: 25px;
 	border-radius: 8px;
 	margin: 25px auto;
@@ -353,4 +351,71 @@ footer {
 
 #instagram i:hover {
     color: #DD2A7B;
+}
+
+/* Media queries */
+
+/* For medium to small screen sizes from 941px and down */
+@media screen and (max-width: 941px) {
+
+#about-container {
+    display: none;
+}
+
+#aboutus {
+    text-align: center;
+    margin: 25px 50px 10px;
+    font-size: 16px;
+}
+
+.request-contact {
+    display: block;
+    text-align: center;
+    margin: 25px 10px 10px;
+    font-size: 18px;
+}
+
+/* Form */
+
+#contact-footer {
+    display: none;
+}
+
+#mapsection {
+   display: none;
+}
+
+}
+
+/* For medium to small screen sizes from 750px and down */
+
+@media screen and (max-width: 750px) {
+
+#logo {
+ width: 15%;
+}
+
+#nav {
+    font-size: 80%;
+    letter-spacing: 2px;
+}
+
+#nav li {
+    padding: 0px 10px;
+}
+
+#nav a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+}
+
+#mission {
+    font-size: 16px;
+}
+
+.container {
+    height: 300px;
+}
+
 }
