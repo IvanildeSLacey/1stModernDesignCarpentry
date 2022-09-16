@@ -29,8 +29,68 @@
       </ul>
     </nav>
   </header>
-  <section>nav</section>
-  <section>mission</section>
+  <section>
+    <h2 id="contact-us">Contact us on:</h2>
+    <ul class="social-networks">
+        <li id="call">
+            <a href="tel:353877699962" target="_blank" rel="noopeneer" aria-label="Call us on 0877699962"><i class="fa-solid fa-phone"></i></a>
+        </li>
+        <li id="facebook">
+            <a href="https://www.facebook.com/profile.php?id=100071893128347" target="_blank" rel="noopener" aria-label="Visit our facebook page (link opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li id="instagram">
+            <a href="https://www.instagram.com/mdesigncarpentry/" target="_blank" rel="noopener" aria-label="Check out our instagram page (link opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li id="whatsapp">
+            <a href="https://wa.me/353877699962" target="_blank" rel="noopener" aria-label="Contact us on whatsapp (opens in a new tab)"><i class="fa-brands fa-whatsapp"></i></a>
+        </li>
+    </ul>
+</section>
+<section>
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="c743fd89-c217-44c0-92c8-9bab35daa6d2">
+
+        <h2>Or fill out our form, and we will get back to you shortly<i class="fa-solid fa-arrow-down"></i></h2>
+        <fieldset class="form-section">
+            <legend>Your Details</legend><br>
+            <div>
+                <label for="fname">First Name: </label>
+                <input id="fname" type="text" name="fname" placeholder="First Name" class="text-input" required>
+            </div><br>
+            <div>
+                <label for="lname">Last Name: </label>
+                <input id="lname" type="text" name="lname" placeholder="Last Name" class="text-input" required>
+            </div><br>
+            <div>
+                <label for="phone-number">Phone Number: </label>
+                <input id="phone-number" type="tel" name="phone-number" placeholder="Phone Number" class="text-input" required>
+            </div><br>
+            <div>
+                <label for="email-address">Email: </label>
+                <input id="email-address" type="email" name="email-address" placeholder="Your email" class="text-input" required>
+            </div><br>
+
+            <div>
+                <label for="looking-for">I need help with: </label><br><br>
+                <textarea rows="8" cols="90" class="write-box" placeholder="How can we help you?"></textarea><br><br>
+            </div>
+            <div>
+                <label for="contact-preference">How would you like to be contacted? </label>
+                <select id="contat-preference" name="contact-preference" required>
+                    <option value="pref-email">Email </option>
+                    <option value="pref-phone">Phone</option>
+                </select>
+            </div><br>
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <button type="submit" class="submit">Submit Form</button>
+        </fieldset>
+    </form>
+</section>
+<section id="mapsection">
+        <iframe id="map" aria-label="Google maps address"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38773.015327154724!2d-7.73821775!3d52.60010475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485cd01253d83a0b%3A0x45d4f3944f2ed773!2sLiskeveen%2C%20Co.%20Condado%20de%20Tipperary%2C%20E41%20T886!5e0!3m2!1spt-BR!2sie!4v1662388998428!5m2!1spt-BR!2sie"></iframe>
+        <h3 id="address">Liskeveen, Littleton, Thurles, Tipperary, E41T886</h3>
+</section>
   <footer>
     <ul class="social-networks">
         <li id="call">
