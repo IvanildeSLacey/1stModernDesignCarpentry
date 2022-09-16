@@ -62,3 +62,44 @@ h1, h2 {
     color: #392618;
     font-weight: bold;
 }
+
+/* footer */
+footer {
+    height: 60px;
+    bottom: 0;
+    width: 100%;
+    display: inline;
+    text-align: center;
+    position: static;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 250%;
+    margin: 1%;
+    padding: 5%;
+    color: #392618;
+}
+
+#call i:hover {
+    color: green;
+}
+
+#facebook i:hover {
+    color: blue;
+}
+
+#whatsapp i:hover {
+    color: green;
+}
+
+#instagram i:hover {
+    color: #DD2A7B;
+}
