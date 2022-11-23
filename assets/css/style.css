@@ -19,7 +19,7 @@ h1, h2 {
     font-family: Source Sans Pro, sans-serif;
     text-transform: capitalize;
     letter-spacing: 4px;
-    color: #252525;
+    color: #172741;
     text-align: center;
     margin-bottom: 25px;
 }
@@ -54,12 +54,12 @@ h1, h2 {
 }
 
 #nav a:hover {
-    border-bottom: 1px solid #392618;
+    border-bottom: 1px solid #172741;
 }
 
 .active {
-    border-bottom: 2px solid #392618;
-    color: #392618;
+    border-bottom: 2px solid #172741;
+    color: #172741;
     font-weight: bold;
 }
 
@@ -141,7 +141,7 @@ img{
 
 .button {
     border-radius: 12px;
-    background-color: #392618;
+    background-color: #172741;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -272,23 +272,23 @@ form {
 
 .text-input {
     background: transparent;
-    color: #392618;
+    color: #172741;
     width: 100%;
     height: 25px;
     margin: 5px 0 20px;
-    border-bottom: 1px solid #392618;
+    border-bottom: 1px solid #172741;
     border-radius: 2px;
 }
 
 .write-box {
     height: 75px;
     width: 100%;
-    border: 1px solid #392618;
+    border: 1px solid #172741;
 }
 
 .submit {
     border-radius: 12px;
-    background-color: #392618;
+    background-color: #172741;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -303,8 +303,8 @@ form {
 
 .submit:hover {
      background-color: #FFFFFF;
-     color: #392618;
-     border: 2PX solid #392618;
+     color: #172741;
+     border: 2PX solid #172741;
 }
 
 #map {
@@ -334,7 +334,7 @@ footer {
     font-size: 250%;
     margin: 1%;
     padding: 5%;
-    color: #392618;
+    color: #172741;
 }
 
 #call i:hover {
