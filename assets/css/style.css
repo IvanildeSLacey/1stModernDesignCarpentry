@@ -3,15 +3,15 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: #fff;
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-}
+} */
 
 /* headings */
 
@@ -28,18 +28,18 @@ a {
     text-decoration: none;
 }
 
-#current {
+/* #current {
     border-bottom: 2px solid #C4A862;
     color: white;
     font-weight: bold;
-}
+} */
 
 .navbar {
     min-height: 4.5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 1rem 1.5rem;
 }
 
 .nav-menu {
@@ -50,11 +50,7 @@ a {
 }
 
 .nav-branding {
-    float: left;
-    margin-left: 10px;
-    width: 100%;
-    height: 10vh;
-    align-items: center;
+    height: 4.5rem;
 }
 
 .nav-link {
@@ -87,44 +83,6 @@ a {
     color: #172741;
     text-align: center;
     margin-bottom: 25px;
-} */
-
-/* navigation links */
-
-/* #logo {
-    float: left;
-    width: 10%;
-    margin-top: 25px;
-    margin-left: 50px;
-    line-height: 150px;
-}
-#nav {
-    font-size: 100%;
-    letter-spacing: 4px;
-    line-height: 150px;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#nav li {
-    list-style-type: none;
-    padding: 0px 30px;
-}
-
-#nav a {
-    text-decoration: none;
-    color: inherit;
-    margin-right: 30px;
-}
-
-#nav a:hover {
-    border-bottom: 1px solid #172741;
-}
-
-.active {
-    border-bottom: 2px solid #172741;
-    color: #172741;
-    font-weight: bold;
 } */
 
 /* Slides hero image */
@@ -474,13 +432,13 @@ footer {
         display: block;
     }
 
-    .burger.active.bar:nth-child(2) {
+    .burger.active .bar:nth-child(2) {
         opacity: 0;
     }
-    .burger.active.bar:nth-child(1) {
+    .burger.active .bar:nth-child(1) {
         transform: translateY(0.5rem) rotate(45deg);
     }
-    .burger.active.bar:nth-child(3) {
+    .burger.active .bar:nth-child(3) {
         transform: translateY(-0.5rem) rotate(-45deg);
     }
 
@@ -503,7 +461,6 @@ footer {
     .nav-menu.active {
         left: 0;
     }
-
 
 }
 
