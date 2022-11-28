@@ -6,12 +6,12 @@
     box-sizing: border-box;
 }
 
-/* body {
+body {
     background-color: #fff;
     font-family: Montserrat, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-} */
+}
 
 /* headings */
 
@@ -27,12 +27,6 @@ a {
     color: #FFFFFF;
     text-decoration: none;
 }
-
-/* #current {
-    border-bottom: 2px solid #C4A862;
-    color: white;
-    font-weight: bold;
-} */
 
 .navbar {
     min-height: 4.5rem;
@@ -462,34 +456,5 @@ footer {
         left: 0;
     }
 
+
 }
-
-/* #logo {
- width: 15%;
-}
-
-#nav {
-    font-size: 80%;
-    letter-spacing: 2px;
-}
-
-#nav li {
-    padding: 0px 10px;
-}
-
-#nav a {
-    text-decoration: none;
-    color: inherit;
-    margin-right: 10px;
-}
-
-#mission {
-    font-size: 16px;
-}
-
-.container {
-    height: 300px;
-}
-
-} */
-
